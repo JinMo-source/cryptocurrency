@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CoinInfo } from "./CoinInfo";
 import axios from "axios";
-import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const ChartContainer = styled.div`

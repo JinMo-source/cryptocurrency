@@ -225,6 +225,7 @@ const Coingrapes = () => {
       y: Number(data.priceUsd).toFixed(1),
     };
   });
+
   let data = [
     {
       id: `${coinName}`,

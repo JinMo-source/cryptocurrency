@@ -9,6 +9,7 @@ const GrapeCotainer = styled.div`
   right: 0;
   bottom: 0;
 `;
+
 function CoinDetail() {
   return <GrapeCotainer>{<Coingrapes />}</GrapeCotainer>;
 }
